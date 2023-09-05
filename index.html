@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Shahd Mustafa</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Shahd Mustafa</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+
+      <section id="profile">
+        
+          
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Shahd Mustafa</h1>
+          <p class="section__text__p2">Software Developer</p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/ShahdMustafa_resume.docx')"
+            >
+              Download Resume
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="./assets/linkedin.png"
+              class="icon"
+              onclick="location.href='https://www.linkedin.com/in/shahd-mustafa-194894252/'"
+              alt="My LinkedIn profile"
+            />
+            <img
+              src="./assets/github.png"
+              class="icon"
+              onclick="location.href='https://github.com/shahdmu34'"
+              alt="My Github profile"
+            />
+          </div>
+        </div>
+        
+
+
+      </section>
+
+      <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  class="icon"
+                  src="./assets/experience.png"
+                  alt="Experience icon"
+                />
+                <h3>Experience</h3>
+                <p>Research Assistant<br />Python developer</p>
+              </div>
+              <div class="details-container">
+                <img
+                  class="icon"
+                  src="./assets/education.png"
+                  alt="Education icon"
+                />
+                <h3>Education</h3>
+                <p>B.Sc. Bachelors Degree in Software Engineering</p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                
+
+              Hello, I'm Shahd Mustafa, a senior studying Software Engineering at the University of Michigan. 
+              Passionate about technology and driven by creativity, I'm dedicated to delivering dynamic solutions that enhance the user experience. Join me on my journey as I strive to make a meaningful impact in the ever-evolving world of software engineering.
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+
+
+      <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Programming Languages</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    class="icon"
+                    src="/assets/checkmark.png"
+                    alt="Experience icon"
+                  />
+                  <div>
+                    <h3>HTML</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    class="icon"
+                    src="/assets/checkmark.png"
+                    alt="Experience icon"
+                  />
+                  <div>
+                    <h3>CSS</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                    <img
+                      class="icon"
+                      src="/assets/checkmark.png"
+                      alt="Experience icon"
+                    />
+                    <div>
+                      <h3>kotlin</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      class="icon"
+                      src="/assets/checkmark.png"
+                      alt="Experience icon"
+                    />
+                    <div>
+                      <h3>Java</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      class="icon"
+                      src="/assets/checkmark.png"
+                      alt="Experience icon"
+                    />
+                    <div>
+                      <h3>Python</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      class="icon"
+                      src="/assets/checkmark.png"
+                      alt="Experience icon"
+                    />
+                    <div>
+                      <h3>SQL</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                <article>
+                  <img
+                    class="icon"
+                    src="/assets/checkmark.png"
+                    alt="Experience icon"
+                  />
+                  <div>
+                    <h3>C++/C</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                
+                <article>
+                  <img
+                    class="icon"
+                    src="/assets/checkmark.png"
+                    alt="Experience icon"
+                  />
+                  <div>
+                    <h3>JavaScript</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Software Tools</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    class="icon"
+                    src="/assets/checkmark.png"
+                    alt="Experience icon"
+                  />
+                  <div>
+                    <h3>Enterprise Architect</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    class="icon"
+                    src="/assets/checkmark.png"
+                    alt="Experience icon"
+                  />
+                  <div>
+                    <h3>Next.js</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    class="icon"
+                    src="/assets/checkmark.png"
+                    alt="Experience icon"
+                  />
+                  <div>
+                    <h3>Android Studio</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    class="icon"
+                    src="/assets/checkmark.png"
+                    alt="Experience icon"
+                  />
+                  <div>
+                    <h3>Git/GitHub</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                    <img
+                      class="icon"
+                      src="/assets/checkmark.png"
+                      alt="Experience icon"
+                    />
+                    <div>
+                      <h3>Oracle SQL Developer</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      class="icon"
+                      src="/assets/checkmark.png"
+                      alt="Experience icon"
+                    />
+                    <div>
+                      <h3>Jenkins</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="/assets/arrow.png"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+          alt=""
+        />
+      </section>
+      <section id="projects">
+        <br>
+        <br>
+        <br>
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  class="project-img"
+                  src="/assets/sql-pic.png"
+                  alt="project-1"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Restaurant Database</h2>
+              <p>The database for this project was created using SQL Developer. A comprehensive set of tables was designed to capture all aspects of the restaurant, including staff, supplies, inventory, and more. Necessary attributes and key relationships were added to each table. SQL queries and statements were executed successfully, ensuring the integrity of the database design.
+                <br>
+                SQL Developer
+              </p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/shahdmu34/cis---421-project';"
+                >
+                  GitHub
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://linkedin.com/';"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  class="project-img"
+                  src="/assets/reli-avail-site.png"
+                  alt="project-1"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Reliability and Availability Calculator</h2>
+              <p>Created Reliability and Availability calculator site that serves as a valuable resource for users seeking to calculate essential metrics such as Mean Time to Failure (MTTF), Mean Time to Repair (MTTR), as well as reliability and availability. Using HTML, CSS, and JavaScript, the website seamlessly handles complex computations, ensuring accurate and precise results. The site empowers users to assess and optimize the reliability and availability of their systems, providing them with invaluable insights to enhance operational efficiency and mitigate potential downtime.
+                <br>
+                Html/Css and JavaScript</p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/shahdmu34/Reliablity-and-Availability-Calculator-site';"
+                >
+                  GitHub
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://shahdmu34.github.io/Reliablity-and-Availability-Calculator-site/';"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  class="project-img"
+                  src="/assets/book-phone-display.png"
+                  alt="project-1"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Read and Review Application</h2>
+              <p>Android application offers users the ability to effortlessly search for books through a seamlessly integrated Google Book API. In addition, it facilitates the process of composing detailed reviews by providing users with a platform to rate books and effectively track their reading progress.
+
+                Kotlin, Android Studio</p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/shahdmu34/Project4-Cis436';"
+                >
+                  GitHub
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://shahdmu34.github.io/Reliablity-and-Availability-Calculator-site/';"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  class="project-img"
+                  src="/assets/socket.png"
+                  alt="project-1"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Client-Server Socket Program</h2>
+              <p>This programming assignment involves creating a server process that implements the "message of the day" protocol and a client process that communicates with the server over TCP sockets.
+
+                The Yamotd server performs two main functions. Firstly, it responds to a client that sends a MSGGET message by returning the current message of the day. Secondly, it allows a client to upload a new message of the day by sending a MSGSTORE message. The newly uploaded message will replace the previously stored message and will be returned to any future clients that send a MSGGET message.
+                <br>
+
+                Java, Eclipse IDE
+
+
+              </p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/shahdmu34/Socket-Program';"
+                >
+                  GitHub
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://linkedin.com/';"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <img
+          src="/assets/arrow.png"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+          alt=""
+        />
+      </section>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+
+      <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="/assets/email.png"
+              class="icon contact-icon"
+              alt="Email icon"
+            />
+            <p><a href="mailto:shahdmu@umich.edu">shahdmu@umich.edu</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="/assets/linkedin.png"
+              class="icon contact-icon"
+              alt="LinkedIn icon"
+            />
+            <p><a href="https://www.linkedin.com/in/shahd-mustafa-194894252/">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        
+      </footer>
+
+    <script src="script.js">
+
+    </script>
+
+  </body>
+  </html>
